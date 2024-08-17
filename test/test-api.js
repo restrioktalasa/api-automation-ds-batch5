@@ -2,10 +2,8 @@ import chai, { assert } from 'chai';
 import chaiJsonSchema from 'chai-json-schema';
 import supertest from 'supertest';
 
-// Use the chai-json-schema plugin
 chai.use(chaiJsonSchema);
 
-// Import the schema
 import { getSchema } from '../resource/get-schema.js';
 import { postSchema } from '../resource/post-schema.js';
 import { putSchema } from '../resource/put-schema.js';

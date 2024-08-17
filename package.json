@@ -1,0 +1,27 @@
+{
+  "name": "api-automation-ds-batch5",
+  "version": "1.0.0",
+  "description": "API automation test menggunakan Supertest, Mocha, dan Chai",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/restrioktalasa/api-automation-ds-batch5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/restrioktalasa/api-automation-ds-batch5/issues"
+  },
+  "homepage": "https://github.com/restrioktalasa/api-automation-ds-batch5#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
